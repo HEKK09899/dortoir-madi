@@ -1,0 +1,1316 @@
+[
+  {
+    "model": "laverie.machine",
+    "pk": 1,
+    "fields": {
+      "dortoir": "DORTOIR_1",
+      "nom": "D1 - Machine 1",
+      "ordre": 1,
+      "active": true,
+      "date_creation": "2026-02-23T01:58:12.672Z"
+    }
+  },
+  {
+    "model": "laverie.machine",
+    "pk": 2,
+    "fields": {
+      "dortoir": "DORTOIR_1",
+      "nom": "D1 - Machine 2",
+      "ordre": 2,
+      "active": true,
+      "date_creation": "2026-02-23T01:58:26.758Z"
+    }
+  },
+  {
+    "model": "laverie.machine",
+    "pk": 3,
+    "fields": {
+      "dortoir": "DORTOIR_1",
+      "nom": "D1 - Machine 3",
+      "ordre": 3,
+      "active": true,
+      "date_creation": "2026-02-23T02:53:50.516Z"
+    }
+  },
+  {
+    "model": "laverie.machine",
+    "pk": 4,
+    "fields": {
+      "dortoir": "DORTOIR_2",
+      "nom": "D2 - Machine 1",
+      "ordre": 1,
+      "active": true,
+      "date_creation": "2026-10-14T20:56:41.280Z"
+    }
+  },
+  {
+    "model": "laverie.machine",
+    "pk": 5,
+    "fields": {
+      "dortoir": "DORTOIR_2",
+      "nom": "D2 - Machine 2",
+      "ordre": 2,
+      "active": true,
+      "date_creation": "2026-10-14T20:57:05.160Z"
+    }
+  },
+  {
+    "model": "laverie.machine",
+    "pk": 6,
+    "fields": {
+      "dortoir": "DORTOIR_2",
+      "nom": "D2 - Machine 3",
+      "ordre": 3,
+      "active": true,
+      "date_creation": "2026-10-14T20:57:15.111Z"
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 1,
+    "fields": {
+      "machine": 1,
+      "nom": "Coton",
+      "nom_ru": "Õëîïîê",
+      "nom_en": "Cotton",
+      "duree_minutes": 180,
+      "ordre": 1,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 2,
+    "fields": {
+      "machine": 1,
+      "nom": "Linge simple",
+      "nom_ru": "Ïîâñåäíåâíîå áåëü¸",
+      "nom_en": "Everyday laundry",
+      "duree_minutes": 30,
+      "ordre": 2,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 3,
+    "fields": {
+      "machine": 1,
+      "nom": "Chaussure",
+      "nom_ru": "Îáóâü",
+      "nom_en": "Shoes",
+      "duree_minutes": 122,
+      "ordre": 3,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 4,
+    "fields": {
+      "machine": 1,
+      "nom": "DFG",
+      "nom_ru": "DFG",
+      "nom_en": "DFG",
+      "duree_minutes": 134,
+      "ordre": 4,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 5,
+    "fields": {
+      "machine": 1,
+      "nom": "Chemise",
+      "nom_ru": "Ðóáàøêà",
+      "nom_en": "Shirt",
+      "duree_minutes": 45,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 6,
+    "fields": {
+      "machine": 1,
+      "nom": "Pantalon",
+      "nom_ru": "Áðþêè",
+      "nom_en": "Trousers",
+      "duree_minutes": 60,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 7,
+    "fields": {
+      "machine": 1,
+      "nom": "Basin malien",
+      "nom_ru": "Ìàëèéñêèé áàçèí",
+      "nom_en": "Malian bazin fabric",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 8,
+    "fields": {
+      "machine": 1,
+      "nom": "Chaussure am",
+      "nom_ru": "Îáóâü AM",
+      "nom_en": "Shoes AM",
+      "duree_minutes": 80,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 9,
+    "fields": {
+      "machine": 1,
+      "nom": "Cuire de suisse",
+      "nom_ru": "Êîæà èç Øâåéöàðèè",
+      "nom_en": "Swiss leather",
+      "duree_minutes": 78,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 10,
+    "fields": {
+      "machine": 1,
+      "nom": "x7",
+      "nom_ru": "X7",
+      "nom_en": "X7",
+      "duree_minutes": 95,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 11,
+    "fields": {
+      "machine": 1,
+      "nom": "X8",
+      "nom_ru": "X8",
+      "nom_en": "X8",
+      "duree_minutes": 60,
+      "ordre": 1,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 12,
+    "fields": {
+      "machine": 1,
+      "nom": "x20",
+      "nom_ru": "X20",
+      "nom_en": "X20",
+      "duree_minutes": 25,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 13,
+    "fields": {
+      "machine": 1,
+      "nom": "x21",
+      "nom_ru": "X21",
+      "nom_en": "X21",
+      "duree_minutes": 35,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 14,
+    "fields": {
+      "machine": 1,
+      "nom": "Jean ok",
+      "nom_ru": "Äæèíñû",
+      "nom_en": "Jeans",
+      "duree_minutes": 46,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 15,
+    "fields": {
+      "machine": 1,
+      "nom": "x25",
+      "nom_ru": "X25",
+      "nom_en": "X25",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 16,
+    "fields": {
+      "machine": 1,
+      "nom": "Super coton",
+      "nom_ru": "Ñóïåðõëîïîê",
+      "nom_en": "Super cotton",
+      "duree_minutes": 100,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 47,
+    "fields": {
+      "machine": 4,
+      "nom": "Basin malien",
+      "nom_ru": "Ìàëèéñêèé áàçèí",
+      "nom_en": "Malian bazin fabric",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 48,
+    "fields": {
+      "machine": 4,
+      "nom": "Chaussure am",
+      "nom_ru": "Îáóâü AM",
+      "nom_en": "Shoes AM",
+      "duree_minutes": 80,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 49,
+    "fields": {
+      "machine": 4,
+      "nom": "Chemise",
+      "nom_ru": "Ðóáàøêà",
+      "nom_en": "Shirt",
+      "duree_minutes": 45,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 50,
+    "fields": {
+      "machine": 4,
+      "nom": "Cuire de suisse",
+      "nom_ru": "Êîæà èç Øâåéöàðèè",
+      "nom_en": "Swiss leather",
+      "duree_minutes": 78,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 51,
+    "fields": {
+      "machine": 4,
+      "nom": "Jean ok",
+      "nom_ru": "Äæèíñû",
+      "nom_en": "Jeans",
+      "duree_minutes": 46,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 52,
+    "fields": {
+      "machine": 4,
+      "nom": "Pantalon",
+      "nom_ru": "Áðþêè",
+      "nom_en": "Trousers",
+      "duree_minutes": 60,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 53,
+    "fields": {
+      "machine": 4,
+      "nom": "Super coton",
+      "nom_ru": "Ñóïåðõëîïîê",
+      "nom_en": "Super cotton",
+      "duree_minutes": 100,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 54,
+    "fields": {
+      "machine": 4,
+      "nom": "x20",
+      "nom_ru": "X20",
+      "nom_en": "X20",
+      "duree_minutes": 25,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 55,
+    "fields": {
+      "machine": 4,
+      "nom": "x21",
+      "nom_ru": "X21",
+      "nom_en": "X21",
+      "duree_minutes": 35,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 56,
+    "fields": {
+      "machine": 4,
+      "nom": "x25",
+      "nom_ru": "X25",
+      "nom_en": "X25",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 57,
+    "fields": {
+      "machine": 4,
+      "nom": "x7",
+      "nom_ru": "X7",
+      "nom_en": "X7",
+      "duree_minutes": 95,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 58,
+    "fields": {
+      "machine": 4,
+      "nom": "Coton",
+      "nom_ru": "Õëîïîê",
+      "nom_en": "Cotton",
+      "duree_minutes": 180,
+      "ordre": 1,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 59,
+    "fields": {
+      "machine": 4,
+      "nom": "X8",
+      "nom_ru": "X8",
+      "nom_en": "X8",
+      "duree_minutes": 60,
+      "ordre": 1,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 60,
+    "fields": {
+      "machine": 4,
+      "nom": "Linge simple",
+      "nom_ru": "Ïîâñåäíåâíîå áåëü¸",
+      "nom_en": "Everyday laundry",
+      "duree_minutes": 30,
+      "ordre": 2,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 61,
+    "fields": {
+      "machine": 4,
+      "nom": "Chaussure",
+      "nom_ru": "Îáóâü",
+      "nom_en": "Shoes",
+      "duree_minutes": 122,
+      "ordre": 3,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 62,
+    "fields": {
+      "machine": 4,
+      "nom": "DFG",
+      "nom_ru": "DFG",
+      "nom_en": "DFG",
+      "duree_minutes": 134,
+      "ordre": 4,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 63,
+    "fields": {
+      "machine": 2,
+      "nom": "Basin malien",
+      "nom_ru": "Ìàëèéñêèé áàçèí",
+      "nom_en": "Malian bazin fabric",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 64,
+    "fields": {
+      "machine": 2,
+      "nom": "Chaussure am",
+      "nom_ru": "Îáóâü AM",
+      "nom_en": "Shoes AM",
+      "duree_minutes": 80,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 65,
+    "fields": {
+      "machine": 2,
+      "nom": "Chemise",
+      "nom_ru": "Ðóáàøêà",
+      "nom_en": "Shirt",
+      "duree_minutes": 45,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 66,
+    "fields": {
+      "machine": 2,
+      "nom": "Cuire de suisse",
+      "nom_ru": "Êîæà èç Øâåéöàðèè",
+      "nom_en": "Swiss leather",
+      "duree_minutes": 78,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 67,
+    "fields": {
+      "machine": 2,
+      "nom": "Jean ok",
+      "nom_ru": "Äæèíñû",
+      "nom_en": "Jeans",
+      "duree_minutes": 46,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 68,
+    "fields": {
+      "machine": 2,
+      "nom": "Pantalon",
+      "nom_ru": "Áðþêè",
+      "nom_en": "Trousers",
+      "duree_minutes": 60,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 69,
+    "fields": {
+      "machine": 2,
+      "nom": "Super coton",
+      "nom_ru": "Ñóïåðõëîïîê",
+      "nom_en": "Super cotton",
+      "duree_minutes": 100,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 70,
+    "fields": {
+      "machine": 2,
+      "nom": "x20",
+      "nom_ru": "X20",
+      "nom_en": "X20",
+      "duree_minutes": 25,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 71,
+    "fields": {
+      "machine": 2,
+      "nom": "x21",
+      "nom_ru": "X21",
+      "nom_en": "X21",
+      "duree_minutes": 35,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 72,
+    "fields": {
+      "machine": 2,
+      "nom": "x25",
+      "nom_ru": "X25",
+      "nom_en": "X25",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 73,
+    "fields": {
+      "machine": 2,
+      "nom": "x7",
+      "nom_ru": "X7",
+      "nom_en": "X7",
+      "duree_minutes": 95,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 74,
+    "fields": {
+      "machine": 2,
+      "nom": "Coton",
+      "nom_ru": "Õëîïîê",
+      "nom_en": "Cotton",
+      "duree_minutes": 180,
+      "ordre": 1,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 75,
+    "fields": {
+      "machine": 2,
+      "nom": "X8",
+      "nom_ru": "X8",
+      "nom_en": "X8",
+      "duree_minutes": 60,
+      "ordre": 1,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 76,
+    "fields": {
+      "machine": 2,
+      "nom": "Linge simple",
+      "nom_ru": "Ïîâñåäíåâíîå áåëü¸",
+      "nom_en": "Everyday laundry",
+      "duree_minutes": 30,
+      "ordre": 2,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 77,
+    "fields": {
+      "machine": 2,
+      "nom": "Chaussure",
+      "nom_ru": "Îáóâü",
+      "nom_en": "Shoes",
+      "duree_minutes": 122,
+      "ordre": 3,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 78,
+    "fields": {
+      "machine": 2,
+      "nom": "DFG",
+      "nom_ru": "DFG",
+      "nom_en": "DFG",
+      "duree_minutes": 134,
+      "ordre": 4,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 79,
+    "fields": {
+      "machine": 5,
+      "nom": "Basin malien",
+      "nom_ru": "Ìàëèéñêèé áàçèí",
+      "nom_en": "Malian bazin fabric",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 80,
+    "fields": {
+      "machine": 5,
+      "nom": "Chaussure am",
+      "nom_ru": "Îáóâü AM",
+      "nom_en": "Shoes AM",
+      "duree_minutes": 80,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 81,
+    "fields": {
+      "machine": 5,
+      "nom": "Chemise",
+      "nom_ru": "Ðóáàøêà",
+      "nom_en": "Shirt",
+      "duree_minutes": 45,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 82,
+    "fields": {
+      "machine": 5,
+      "nom": "Cuire de suisse",
+      "nom_ru": "Êîæà èç Øâåéöàðèè",
+      "nom_en": "Swiss leather",
+      "duree_minutes": 78,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 83,
+    "fields": {
+      "machine": 5,
+      "nom": "Jean ok",
+      "nom_ru": "Äæèíñû",
+      "nom_en": "Jeans",
+      "duree_minutes": 46,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 84,
+    "fields": {
+      "machine": 5,
+      "nom": "Pantalon",
+      "nom_ru": "Áðþêè",
+      "nom_en": "Trousers",
+      "duree_minutes": 60,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 85,
+    "fields": {
+      "machine": 5,
+      "nom": "Super coton",
+      "nom_ru": "Ñóïåðõëîïîê",
+      "nom_en": "Super cotton",
+      "duree_minutes": 100,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 86,
+    "fields": {
+      "machine": 5,
+      "nom": "x20",
+      "nom_ru": "X20",
+      "nom_en": "X20",
+      "duree_minutes": 25,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 87,
+    "fields": {
+      "machine": 5,
+      "nom": "x21",
+      "nom_ru": "X21",
+      "nom_en": "X21",
+      "duree_minutes": 35,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 88,
+    "fields": {
+      "machine": 5,
+      "nom": "x25",
+      "nom_ru": "X25",
+      "nom_en": "X25",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 89,
+    "fields": {
+      "machine": 5,
+      "nom": "x7",
+      "nom_ru": "X7",
+      "nom_en": "X7",
+      "duree_minutes": 95,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 90,
+    "fields": {
+      "machine": 5,
+      "nom": "Coton",
+      "nom_ru": "Õëîïîê",
+      "nom_en": "Cotton",
+      "duree_minutes": 180,
+      "ordre": 1,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 91,
+    "fields": {
+      "machine": 5,
+      "nom": "X8",
+      "nom_ru": "X8",
+      "nom_en": "X8",
+      "duree_minutes": 60,
+      "ordre": 1,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 92,
+    "fields": {
+      "machine": 5,
+      "nom": "Linge simple",
+      "nom_ru": "Ïîâñåäíåâíîå áåëü¸",
+      "nom_en": "Everyday laundry",
+      "duree_minutes": 30,
+      "ordre": 2,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 93,
+    "fields": {
+      "machine": 5,
+      "nom": "Chaussure",
+      "nom_ru": "Îáóâü",
+      "nom_en": "Shoes",
+      "duree_minutes": 122,
+      "ordre": 3,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 94,
+    "fields": {
+      "machine": 5,
+      "nom": "DFG",
+      "nom_ru": "DFG",
+      "nom_en": "DFG",
+      "duree_minutes": 134,
+      "ordre": 4,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 95,
+    "fields": {
+      "machine": 3,
+      "nom": "Basin malien",
+      "nom_ru": "Ìàëèéñêèé áàçèí",
+      "nom_en": "Malian bazin fabric",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 96,
+    "fields": {
+      "machine": 3,
+      "nom": "Chaussure am",
+      "nom_ru": "Îáóâü AM",
+      "nom_en": "Shoes AM",
+      "duree_minutes": 80,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 97,
+    "fields": {
+      "machine": 3,
+      "nom": "Chemise",
+      "nom_ru": "Ðóáàøêà",
+      "nom_en": "Shirt",
+      "duree_minutes": 45,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 98,
+    "fields": {
+      "machine": 3,
+      "nom": "Cuire de suisse",
+      "nom_ru": "Êîæà èç Øâåéöàðèè",
+      "nom_en": "Swiss leather",
+      "duree_minutes": 78,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 99,
+    "fields": {
+      "machine": 3,
+      "nom": "Jean ok",
+      "nom_ru": "Äæèíñû",
+      "nom_en": "Jeans",
+      "duree_minutes": 46,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 100,
+    "fields": {
+      "machine": 3,
+      "nom": "Pantalon",
+      "nom_ru": "Áðþêè",
+      "nom_en": "Trousers",
+      "duree_minutes": 60,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 101,
+    "fields": {
+      "machine": 3,
+      "nom": "Super coton",
+      "nom_ru": "Ñóïåðõëîïîê",
+      "nom_en": "Super cotton",
+      "duree_minutes": 100,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 102,
+    "fields": {
+      "machine": 3,
+      "nom": "x20",
+      "nom_ru": "X20",
+      "nom_en": "X20",
+      "duree_minutes": 25,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 103,
+    "fields": {
+      "machine": 3,
+      "nom": "x21",
+      "nom_ru": "X21",
+      "nom_en": "X21",
+      "duree_minutes": 35,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 104,
+    "fields": {
+      "machine": 3,
+      "nom": "x25",
+      "nom_ru": "X25",
+      "nom_en": "X25",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 105,
+    "fields": {
+      "machine": 3,
+      "nom": "x7",
+      "nom_ru": "X7",
+      "nom_en": "X7",
+      "duree_minutes": 95,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 106,
+    "fields": {
+      "machine": 3,
+      "nom": "Coton",
+      "nom_ru": "Õëîïîê",
+      "nom_en": "Cotton",
+      "duree_minutes": 180,
+      "ordre": 1,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 107,
+    "fields": {
+      "machine": 3,
+      "nom": "X8",
+      "nom_ru": "X8",
+      "nom_en": "X8",
+      "duree_minutes": 60,
+      "ordre": 1,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 108,
+    "fields": {
+      "machine": 3,
+      "nom": "Linge simple",
+      "nom_ru": "Ïîâñåäíåâíîå áåëü¸",
+      "nom_en": "Everyday laundry",
+      "duree_minutes": 30,
+      "ordre": 2,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 109,
+    "fields": {
+      "machine": 3,
+      "nom": "Chaussure",
+      "nom_ru": "Îáóâü",
+      "nom_en": "Shoes",
+      "duree_minutes": 122,
+      "ordre": 3,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 110,
+    "fields": {
+      "machine": 3,
+      "nom": "DFG",
+      "nom_ru": "DFG",
+      "nom_en": "DFG",
+      "duree_minutes": 134,
+      "ordre": 4,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 111,
+    "fields": {
+      "machine": 6,
+      "nom": "Basin malien",
+      "nom_ru": "Ìàëèéñêèé áàçèí",
+      "nom_en": "Malian bazin fabric",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 112,
+    "fields": {
+      "machine": 6,
+      "nom": "Chaussure am",
+      "nom_ru": "Îáóâü AM",
+      "nom_en": "Shoes AM",
+      "duree_minutes": 80,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 113,
+    "fields": {
+      "machine": 6,
+      "nom": "Chemise",
+      "nom_ru": "Ðóáàøêà",
+      "nom_en": "Shirt",
+      "duree_minutes": 45,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 114,
+    "fields": {
+      "machine": 6,
+      "nom": "Cuire de suisse",
+      "nom_ru": "Êîæà èç Øâåéöàðèè",
+      "nom_en": "Swiss leather",
+      "duree_minutes": 78,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 115,
+    "fields": {
+      "machine": 6,
+      "nom": "Jean ok",
+      "nom_ru": "Äæèíñû",
+      "nom_en": "Jeans",
+      "duree_minutes": 46,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 116,
+    "fields": {
+      "machine": 6,
+      "nom": "Pantalon",
+      "nom_ru": "Áðþêè",
+      "nom_en": "Trousers",
+      "duree_minutes": 60,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 117,
+    "fields": {
+      "machine": 6,
+      "nom": "Super coton",
+      "nom_ru": "Ñóïåðõëîïîê",
+      "nom_en": "Super cotton",
+      "duree_minutes": 100,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 118,
+    "fields": {
+      "machine": 6,
+      "nom": "x20",
+      "nom_ru": "X20",
+      "nom_en": "X20",
+      "duree_minutes": 25,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 119,
+    "fields": {
+      "machine": 6,
+      "nom": "x21",
+      "nom_ru": "X21",
+      "nom_en": "X21",
+      "duree_minutes": 35,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 120,
+    "fields": {
+      "machine": 6,
+      "nom": "x25",
+      "nom_ru": "X25",
+      "nom_en": "X25",
+      "duree_minutes": 55,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 121,
+    "fields": {
+      "machine": 6,
+      "nom": "x7",
+      "nom_ru": "X7",
+      "nom_en": "X7",
+      "duree_minutes": 95,
+      "ordre": 0,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 122,
+    "fields": {
+      "machine": 6,
+      "nom": "Coton",
+      "nom_ru": "Õëîïîê",
+      "nom_en": "Cotton",
+      "duree_minutes": 180,
+      "ordre": 1,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 123,
+    "fields": {
+      "machine": 6,
+      "nom": "X8",
+      "nom_ru": "X8",
+      "nom_en": "X8",
+      "duree_minutes": 60,
+      "ordre": 1,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 124,
+    "fields": {
+      "machine": 6,
+      "nom": "Linge simple",
+      "nom_ru": "Ïîâñåäíåâíîå áåëü¸",
+      "nom_en": "Everyday laundry",
+      "duree_minutes": 30,
+      "ordre": 2,
+      "active": true
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 125,
+    "fields": {
+      "machine": 6,
+      "nom": "Chaussure",
+      "nom_ru": "Îáóâü",
+      "nom_en": "Shoes",
+      "duree_minutes": 122,
+      "ordre": 3,
+      "active": false
+    }
+  },
+  {
+    "model": "laverie.fonctionmachine",
+    "pk": 126,
+    "fields": {
+      "machine": 6,
+      "nom": "DFG",
+      "nom_ru": "DFG",
+      "nom_en": "DFG",
+      "duree_minutes": 134,
+      "ordre": 4,
+      "active": true
+    }
+  }
+]
