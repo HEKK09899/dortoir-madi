@@ -1,0 +1,1076 @@
+# Russian
+# Copyright (C) 2025
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "DORTOIR MADI"
+msgstr "Общежитие МАДИ"
+
+msgid "Laverie"
+msgstr "Прачечная"
+
+msgid "Messages"
+msgstr "Сообщения"
+
+msgid "Dashboard"
+msgstr "Панель управления"
+
+msgid "Log out"
+msgstr "Выйти"
+
+msgid "Log in"
+msgstr "Войти"
+
+msgid "Profile"
+msgstr "Профиль"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Language"
+msgstr "Язык"
+
+msgid "Welcome to Dortoir 3"
+msgstr "Добро пожаловать в общежитие МАДИ"
+
+msgid "Services and information for your dormitory."
+msgstr "Услуги и информация вашего общежития."
+
+msgid "Book a washing machine online."
+msgstr "Забронировать стиральную машину онлайн."
+
+msgid "Report a problem"
+msgstr "Сообщить о проблеме"
+
+msgid "Describe an issue for the team to handle."
+msgstr "Опишите проблему для обработки командой."
+
+msgid "Dortoir 3 — Dormitory services"
+msgstr "Общежитие МАДИ — Услуги общежития"
+
+msgid "About"
+msgstr "О нас"
+
+msgid "Laundry room"
+msgstr "Прачечная"
+
+msgid "Book your machine online."
+msgstr "Забронируйте стиральную машину онлайн."
+
+msgid "My tickets"
+msgstr "Мои талоны"
+
+msgid "Manage machines"
+msgstr "Управление стиральными машинами"
+
+msgid "It's your turn"
+msgstr "Ваша очередь"
+
+msgid "Ticket"
+msgstr "Талон"
+
+msgid "Show ticket"
+msgstr "Показать талон"
+
+msgid "Access your personal space"
+msgstr "Доступ в личный кабинет"
+
+msgid "Phone or email"
+msgstr "Телефон или e-mail"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Don't have an account?"
+msgstr "Нет аккаунта?"
+
+msgid "Sign up"
+msgstr "Регистрация"
+
+msgid "or"
+msgstr "или"
+
+msgid "Activate an account"
+msgstr "Активировать аккаунт"
+
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+msgid "Create an account"
+msgstr "Создать аккаунт"
+
+msgid "Fill in the form below to register."
+msgstr "Заполните форму ниже для регистрации."
+
+msgid "Create account"
+msgstr "Создать аккаунт"
+
+msgid "Already have an account?"
+msgstr "Уже есть аккаунт?"
+
+msgid "Enter your password"
+msgstr "Введите пароль"
+
+msgid "Confirm password"
+msgstr "Подтвердите пароль"
+
+msgid "Confirm your password"
+msgstr "Подтвердите пароль"
+
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+msgid "First name"
+msgstr "Имя"
+
+msgid "Last name"
+msgstr "Фамилия"
+
+msgid "Phone number"
+msgstr "Номер телефона"
+
+msgid "Photo"
+msgstr "Фото"
+
+msgid "This email is already in use."
+msgstr "Этот e-mail уже используется."
+
+msgid "Photo must not exceed 2 MB."
+msgstr "Фото не должно превышать 2 МБ."
+
+msgid "Good to know"
+msgstr "Полезно знать"
+
+msgid ""
+"You will be placed directly after the last person on this machine. Your slot"
+" will start 5 minutes after theirs (time to remove laundry)."
+msgstr ""
+"Вы будете поставлены сразу после последнего человека на этой стиральной "
+"машине. Ваш слот начнётся через 5 минут после окончания его (время на "
+"выгрузку белья)."
+
+msgid "Your start time will be at earliest:"
+msgstr "Ваше время начала — не ранее:"
+
+msgid "at"
+msgstr "в"
+
+msgid ""
+"Be present at your slot start time to respect the machine and other users."
+msgstr ""
+"Приходите к началу вашего слота, чтобы уважать стиральную машину и других "
+"пользователей."
+
+msgid "Announcements"
+msgstr "Объявления"
+
+msgid "Machines"
+msgstr "Стиральные машины"
+
+msgid "Until"
+msgstr "До"
+
+msgid "Available"
+msgstr "Доступно"
+
+msgid "In progress"
+msgstr "В процессе"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "Queue"
+msgstr "Очередь"
+
+msgid "No ticket — machine available."
+msgstr "Нет талона — стиральная машина свободна."
+
+msgid "View tickets"
+msgstr "Просмотр талонов"
+
+msgid "Book"
+msgstr "Забронировать"
+
+msgid "No machine configured at the moment."
+msgstr "Нет настроенных стиральных машин."
+
+msgid "Back to laundry room"
+msgstr "Назад в прачечную"
+
+msgid "Tickets in progress"
+msgstr "Талоны в процессе"
+
+msgid "Reservations waiting and in progress on this machine."
+msgstr "Брони в ожидании и в процессе на этой стиральной машине."
+
+msgid "End of last ticket:"
+msgstr "Конец последнего талона:"
+
+msgid "min"
+msgstr "мин"
+
+msgid "No ticket in progress on this machine."
+msgstr "Нет талона в процессе на этой стиральной машине."
+
+msgid "Book this machine"
+msgstr "Забронировать эту стиральную машину"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Dortoir 3 — Laverie"
+msgstr "Общежитие МАДИ — Прачечная"
+
+msgid "Machine"
+msgstr "Стиральная машина"
+
+msgid "Programme"
+msgstr "Программа"
+
+msgid "Time remaining"
+msgstr "Осталось времени"
+
+msgid "Time slot"
+msgstr "Время"
+
+msgid "Holder"
+msgstr "Владелец"
+
+msgid "Show this ticket at the machine to avoid conflicts."
+msgstr "Покажите этот талон у машины, чтобы избежать конфликтов."
+
+msgid "Activate the machine at the exact time shown above."
+msgstr "Включите машину точно в указанное время."
+
+msgid "Activate the machine at the exact time shown on your ticket."
+msgstr "Включите машину точно в указанное на талоне время."
+
+msgid "Your washing machine reservations."
+msgstr "Ваши резервации стиральных машин."
+
+msgid "New reservation"
+msgstr "Новая резервация"
+
+msgid "Cancel this reservation?"
+msgstr "Отменить эту резервацию?"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Back to home"
+msgstr "На главную"
+
+msgid "View my reports"
+msgstr "Мои сообщения о проблемах"
+
+msgid "Report a problem"
+msgstr "Сообщить о проблеме"
+
+msgid "Describe the problem. The team will take note of it."
+msgstr "Опишите проблему. Команда ознакомится с ней."
+
+msgid "Problem description"
+msgstr "Описание проблемы"
+
+msgid "Submit report"
+msgstr "Отправить сообщение"
+
+msgid "Describe the problem you encountered…"
+msgstr "Опишите проблему, с которой вы столкнулись…"
+
+msgid "Your report has been recorded. You can track its status below."
+msgstr "Ваше сообщение зафиксировано. Вы можете отслеживать его статус ниже."
+
+msgid "You have no reservations."
+msgstr "У вас нет резерваций."
+
+msgid "Book a slot"
+msgstr "Записаться на слот"
+
+msgid ""
+"You cannot take more than %(max)s tickets on the same day on the same "
+"machine."
+msgstr ""
+"Нельзя оформить более %(max)s талонов в один день на одну и ту же машину."
+
+msgid "This function does not belong to the selected machine."
+msgstr "Эта программа не относится к выбранной машине."
+
+msgid "Chat with ticket owners"
+msgstr "Чат с владельцами талонов"
+
+msgid "Exchange with people who have a ticket on this machine."
+msgstr "Общайтесь с теми, у кого есть талон на эту машину."
+
+msgid "No message yet. Be the first to write!"
+msgstr "Пока нет сообщений. Напишите первым!"
+
+msgid "Your message..."
+msgstr "Ваше сообщение..."
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Only users with a ticket on this machine can post messages."
+msgstr "Писать в чат могут только пользователи с талоном на эту машину."
+
+msgid "You need a ticket on this machine to post in the chat."
+msgstr "Чтобы писать в чат, нужен талон на эту машину."
+
+msgid "You must have a ticket on this machine to post in the chat."
+msgstr "Чтобы отправить сообщение в чат, нужен талон на эту машину."
+
+msgid "Message must be between 1 and 1000 characters."
+msgstr "Сообщение должно быть от 1 до 1000 символов."
+
+msgid "Message sent."
+msgstr "Сообщение отправлено."
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Send a message"
+msgstr "Отправить сообщение"
+
+msgid ""
+"To exchange with a ticket owner, click « Message » next to their name to "
+"open the chat."
+msgstr ""
+"Чтобы написать владельцу талона, нажмите « Сообщение » рядом с его именем."
+
+msgid "Turn the dial"
+msgstr "Поверните циферблат"
+
+msgid "Confirm reservation"
+msgstr "Подтвердить резервацию"
+
+msgid "No program"
+msgstr "Нет программы"
+
+msgid "Reserved"
+msgstr "Забронировано"
+
+msgid "Completed"
+msgstr "Завершено"
+
+msgid "Cancelled"
+msgstr "Отменено"
+
+msgid "Error while copying."
+msgstr "Ошибка при копировании."
+
+msgid ""
+"Add machines and their programs. Drag a program onto another machine to copy"
+" it."
+msgstr ""
+"Добавляйте машины и их программы. Перетащите программу на другую машину, "
+"чтобы скопировать."
+
+msgid "Add machine"
+msgstr "Добавить машину"
+
+msgid "Add program"
+msgstr "Добавить программу"
+
+msgid "Banner messages"
+msgstr "Сообщения баннера"
+
+msgid "Reported issues"
+msgstr "Сообщённые проблемы"
+
+msgid "Active"
+msgstr "Активна"
+
+msgid "Inactive"
+msgstr "Неактивна"
+
+msgid "Order"
+msgstr "Порядок"
+
+msgid "Edit"
+msgstr "Изменить"
+
+msgid "Programs"
+msgstr "Программы"
+
+msgid "Hide = no longer offer for reservation. Show = reactivate."
+msgstr ""
+"Скрыть = больше не предлагать для резервации. Показать = снова активировать."
+
+msgid "Drag to another machine to copy"
+msgstr "Перетащите на другую машину для копирования"
+
+msgid "Hide"
+msgstr "Скрыть"
+
+msgid "Show"
+msgstr "Показать"
+
+msgid "Hide this program"
+msgstr "Скрыть эту программу"
+
+msgid "Show this program"
+msgstr "Показать эту программу"
+
+msgid "Drop a program here to copy it."
+msgstr "Перетащите программу сюда, чтобы скопировать."
+
+msgid "Add some"
+msgstr "Добавить"
+
+msgid "No machines"
+msgstr "Нет машин"
+
+msgid "Add a machine to start managing the laundry room."
+msgstr "Добавьте машину, чтобы начать управлять прачечной."
+
+msgid ""
+"These messages scroll at the top of the laundry page, above the machines."
+msgstr "Эти сообщения прокручиваются вверху страницы прачечной, над машинами."
+
+msgid "Post a message"
+msgstr "Опубликовать сообщение"
+
+msgid "Back to machine management"
+msgstr "Назад к управлению машинами"
+
+msgid "Displayed"
+msgstr "Отображается"
+
+msgid "Hidden"
+msgstr "Скрыто"
+
+msgid "Delete this message?"
+msgstr "Удалить это сообщение?"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid ""
+"No messages. Post one to have it scroll at the top of the laundry page."
+msgstr ""
+"Нет сообщений. Опубликуйте одно, чтобы оно отображалось вверху страницы "
+"прачечной."
+
+msgid "Back to machines"
+msgstr "Назад к машинам"
+
+msgid "Edit program"
+msgstr "Изменить программу"
+
+msgid "New program"
+msgstr "Новая программа"
+
+msgid "Edit the program."
+msgstr "Измените программу."
+
+msgid "Choose the machine, program name and duration."
+msgstr "Выберите машину, название программы и длительность."
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Back to messages"
+msgstr "Назад к сообщениям"
+
+msgid "Edit message"
+msgstr "Изменить сообщение"
+
+msgid "Edit machine"
+msgstr "Изменить машину"
+
+msgid "New machine"
+msgstr "Новая машина"
+
+msgid "Edit the name, order or status."
+msgstr "Измените название, порядок или статус."
+
+msgid "Set the name and display order."
+msgstr "Укажите название и порядок отображения."
+
+msgid "My profile"
+msgstr "Мой профиль"
+
+msgid "Manage your personal information and password"
+msgstr "Управляйте своими данными и паролем"
+
+msgid "Personal information"
+msgstr "Личные данные"
+
+msgid "Change password"
+msgstr "Изменить пароль"
+
+msgid "Profile photo"
+msgstr "Фото профиля"
+
+msgid "Accepted formats: JPG, PNG, GIF (max 2 MB)"
+msgstr "Допустимые форматы: JPG, PNG, GIF (макс. 2 МБ)"
+
+msgid "Account information"
+msgstr "Данные аккаунта"
+
+msgid "Not provided"
+msgstr "Не указано"
+
+msgid "Email and phone number cannot be changed"
+msgstr "Email и номер телефона нельзя изменить"
+
+msgid "Gender"
+msgstr "Пол"
+
+msgid "Change profile photo"
+msgstr "Изменить фото профиля"
+
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+msgid ""
+"For your security, you must enter your current password to set a new one."
+msgstr "В целях безопасности введите текущий пароль, чтобы задать новый."
+
+msgid "Unsupported image format. Use JPG, PNG or GIF."
+msgstr "Неподдерживаемый формат. Используйте JPG, PNG или GIF."
+
+msgid "Current password"
+msgstr "Текущий пароль"
+
+msgid "Enter your current password"
+msgstr "Введите текущий пароль"
+
+msgid "New password"
+msgstr "Новый пароль"
+
+msgid "Enter your new password"
+msgstr "Введите новый пароль"
+
+msgid "Password must be at least 8 characters long."
+msgstr "Пароль должен содержать не менее 8 символов."
+
+msgid "Confirm new password"
+msgstr "Подтвердите новый пароль"
+
+msgid "Confirm your new password"
+msgstr "Подтвердите новый пароль"
+
+msgid "The current password is incorrect."
+msgstr "Текущий пароль неверен."
+
+msgid "The two passwords do not match."
+msgstr "Пароли не совпадают."
+
+msgid "Your profile has been updated successfully."
+msgstr "Ваш профиль успешно обновлён."
+
+msgid "Please correct the errors in the form."
+msgstr "Исправьте ошибки в форме."
+
+msgid "Your password has been changed successfully."
+msgstr "Пароль успешно изменён."
+
+msgid "Account locked"
+msgstr "Аккаунт заблокирован"
+
+msgid "Too many login attempts have been made."
+msgstr "Слишком много попыток входа."
+
+msgid "Your account or IP address is temporarily locked."
+msgstr "Ваш аккаунт или IP-адрес временно заблокированы."
+
+msgid "Please try again later."
+msgstr "Попробуйте позже."
+
+msgid "Back to login page"
+msgstr "Вернуться на страницу входа"
+
+msgid "User list"
+msgstr "Список пользователей"
+
+msgid "Promote users to couriers"
+msgstr "Назначить пользователей курьерами"
+
+msgid ""
+"Users register as clients. You can promote them to couriers. Once promoted, "
+"they can be assigned to packed orders."
+msgstr ""
+"Пользователи регистрируются как клиенты. Вы можете назначить их курьерами. "
+"После назначения им можно поручать собранные заказы."
+
+msgid "Registered on"
+msgstr "Зарегистрирован"
+
+msgid "Promote to courier"
+msgstr "Назначить курьером"
+
+msgid "No client users available"
+msgstr "Нет доступных пользователей-клиентов"
+
+msgid "Email verification"
+msgstr "Подтверждение email"
+
+msgid "Check your mailbox..."
+msgstr "Проверьте почту..."
+
+msgid "We have sent you an activation link."
+msgstr "Мы отправили вам ссылку для активации."
+
+msgid "Please click it to complete your registration."
+msgstr "Нажмите на неё, чтобы завершить регистрацию."
+
+msgid "Resend activation link"
+msgstr "Отправить ссылку активации повторно"
+
+msgid "Your email address"
+msgstr "Ваш email"
+
+msgid "Resend link"
+msgstr "Отправить ссылку снова"
+
+msgid "Account activated"
+msgstr "Аккаунт активирован"
+
+msgid ""
+"Your account has been successfully activated! You will be redirected to the "
+"login page in 5 seconds."
+msgstr ""
+"Ваш аккаунт успешно активирован! Через 5 секунд вы будете перенаправлены на "
+"страницу входа."
+
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+msgid "Password reset"
+msgstr "Сброс пароля"
+
+msgid ""
+"Enter your email address and we will send you a link to reset your password."
+msgstr "Введите email — мы отправим вам ссылку для сброса пароля."
+
+msgid "example@email.com"
+msgstr "example@email.com"
+
+msgid "Send reset link"
+msgstr "Отправить ссылку"
+
+msgid "Back to login"
+msgstr "Вернуться к входу"
+
+msgid "Check your inbox and spam folder. The link expires after 24 hours."
+msgstr "Проверьте входящие и спам. Ссылка действительна 24 часа."
+
+msgid "Email sent!"
+msgstr "Письмо отправлено!"
+
+msgid ""
+"If the email address you provided exists in our database, you will shortly "
+"receive an email with a reset link."
+msgstr ""
+"Если такой email есть в нашей базе, вы скоро получите письмо со ссылкой для "
+"сброса."
+
+msgid "Click the link in the email to create a new password."
+msgstr "Перейдите по ссылке из письма, чтобы задать новый пароль."
+
+msgid "Tip:"
+msgstr "Совет:"
+
+msgid ""
+"Check your spam or junk folder if you do not receive the email within a few "
+"minutes."
+msgstr ""
+"Проверьте папку «Спам», если письмо не пришло в течение нескольких минут."
+
+msgid "Create a new secure password for your account."
+msgstr "Придумайте новый надёжный пароль для аккаунта."
+
+msgid "At least 8 characters"
+msgstr "Не менее 8 символов"
+
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
+msgid ""
+"Your password must be at least 8 characters and different from your "
+"username."
+msgstr ""
+"Пароль должен быть не менее 8 символов и отличаться от имени пользователя."
+
+msgid "Password reset complete!"
+msgstr "Пароль успешно сброшен!"
+
+msgid ""
+"Your password has been changed successfully. You can now log in with your "
+"new password."
+msgstr "Пароль изменён. Теперь вы можете войти с новым паролем."
+
+msgid "Security:"
+msgstr "Безопасность:"
+
+msgid "Keep your login details secret and never share them with anyone."
+msgstr "Храните данные для входа в секрете и никому их не сообщайте."
+
+msgid "Hello,"
+msgstr "Здравствуйте,"
+
+msgid ""
+"You are receiving this email because you requested a password reset for your"
+" account on Dortoir 3."
+msgstr ""
+"Вы получили это письмо, потому что запросили сброс пароля для своей учётной "
+"записи в общежитии МАДИ."
+
+msgid "Please click the link below to reset your password:"
+msgstr "Нажмите на ссылку ниже, чтобы сбросить пароль:"
+
+msgid "If you did not request this reset, you can ignore this email."
+msgstr "Если вы не запрашивали сброс, проигнорируйте это письмо."
+
+msgid ""
+"Your password will not be changed until you click the link above and create "
+"a new password."
+msgstr ""
+"Пароль не изменится, пока вы не перейдёте по ссылке и не зададите новый "
+"пароль."
+
+msgid "Thank you,"
+msgstr "С уважением,"
+
+msgid "The Dortoir 3 team"
+msgstr "Команда общежития МАДИ"
+
+# Chat
+msgid "My conversations"
+msgstr "Мои беседы"
+
+msgid "Manage all your conversations"
+msgstr "Управляйте всеми вашими беседами"
+
+msgid "Online"
+msgstr "В сети"
+
+msgid "Offline"
+msgstr "Не в сети"
+
+msgid "No conversations"
+msgstr "Нет бесед"
+
+msgid ""
+"You don't have any conversations yet. Conversations will appear here when "
+"you start chatting with other users."
+msgstr ""
+"У вас пока нет бесед. Они появятся здесь, когда вы начнёте общаться с "
+"другими пользователями."
+
+msgid "Conversation"
+msgstr "Беседа"
+
+msgid "With"
+msgstr "С"
+
+msgid "Back to conversations"
+msgstr "Назад к беседам"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Voice call"
+msgstr "Голосовой звонок"
+
+msgid "Video call"
+msgstr "Видеозвонок"
+
+msgid "Downloading..."
+msgstr "Загрузка..."
+
+msgid "Your browser does not support the audio element."
+msgstr "Ваш браузер не поддерживает воспроизведение аудио."
+
+msgid "No messages yet. Start the conversation!"
+msgstr "Пока нет сообщений. Начните беседу!"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Attach an image or file (PDF, Word, etc.)"
+msgstr "Прикрепить изображение или файл (PDF, Word и т.д.)"
+
+msgid "Attach file"
+msgstr "Прикрепить файл"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Record a voice message"
+msgstr "Записать голосовое сообщение"
+
+msgid "Voice message"
+msgstr "Голосовое сообщение"
+
+msgid "Voice"
+msgstr "Голос"
+
+msgid "Message... (or attach a file / record voice)"
+msgstr "Сообщение... (или прикрепите файл / запишите голос)"
+
+msgid "Recording in progress..."
+msgstr "Идёт запись..."
+
+msgid "Stop"
+msgstr "Остановить"
+
+msgid "Call in progress..."
+msgstr "Звонок..."
+
+msgid "Connecting..."
+msgstr "Подключение..."
+
+msgid "Incoming call"
+msgstr "Входящий звонок"
+
+msgid "Mute"
+msgstr "Отключить звук"
+
+msgid "Video"
+msgstr "Видео"
+
+msgid "Hang up"
+msgstr "Завершить звонок"
+
+# Dashboard client
+msgid "My space"
+msgstr "Моё пространство"
+
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+msgid "My laundry tickets"
+msgstr "Мои талоны прачечной"
+
+msgid "View my tickets"
+msgstr "Посмотреть мои талоны"
+
+msgid "My reports"
+msgstr "Мои сообщения"
+
+msgid "View my reports"
+msgstr "Посмотреть мои сообщения"
+
+msgid "Pending resolution"
+msgstr "Ожидают решения"
+
+msgid "Track status"
+msgstr "Отслеживать статус"
+
+msgid "Laundry reservation(s) in progress"
+msgstr "Резервация(и) прачечной в процессе"
+
+msgid "ticket"
+msgstr "талон"
+
+msgid "Laundry"
+msgstr "Прачечная"
+
+msgid "Book a washing machine, view slots and my tickets."
+msgstr "Забронируйте стиральную машину, просмотрите слоты и мои талоны."
+
+msgid "Go to laundry"
+msgstr "Перейти в прачечную"
+
+msgid "Describe a problem (equipment, building, etc.) for staff follow-up."
+msgstr ""
+"Опишите проблему (оборудование, здание и т.д.) для обработки персоналом."
+
+msgid "Create a report"
+msgstr "Создать сообщение"
+
+msgid "pending"
+msgstr "ожидают"
+
+# Dashboard admin
+msgid "Administrator Dashboard"
+msgstr "Панель администратора"
+
+msgid "Dormitory 3 — Overview"
+msgstr "Общежитие МАДИ — Обзор"
+
+msgid "Django Administration"
+msgstr "Администрирование Django"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "View in admin"
+msgstr "В админке"
+
+msgid "Machines (laundry)"
+msgstr "Машины (прачечная)"
+
+msgid "Active reservations"
+msgstr "Активные резервации"
+
+msgid "View laundry"
+msgstr "Прачечная"
+
+msgid "Reports"
+msgstr "Сообщения"
+
+msgid "Process reports"
+msgstr "Обработать сообщения"
+
+msgid "New"
+msgstr "Новые"
+
+msgid "Resolved"
+msgstr "Решённые"
+
+msgid "View"
+msgstr "Просмотр"
+
+msgid "Recent reports"
+msgstr "Недавние сообщения"
+
+msgid "View all"
+msgstr "Показать все"
+
+msgid "Anonymous"
+msgstr "Аноним"
+
+msgid "No reports"
+msgstr "Нет сообщений"
+
+msgid "Recent users"
+msgstr "Недавние пользователи"
+
+msgid "No users"
+msgstr "Нет пользователей"
+
+msgid "Quick access"
+msgstr "Быстрый доступ"
+
+msgid "Laundry, reports and administration."
+msgstr "Прачечная, сообщения и администрирование."
+
+msgid "Machine management"
+msgstr "Управление машинами"
+
+msgid "Reported issues"
+msgstr "Сообщённые проблемы"
+
+msgid "Django Admin"
+msgstr "Админ Django"
+
+msgid "Access denied. You must be an administrator."
+msgstr "Доступ запрещён. Вы должны быть администратором."
+
+msgid "This feature is not used in this project."
+msgstr "Эта функция не используется в данном проекте."
+
+msgid "Access denied. You must be a seller or administrator."
+msgstr "Доступ запрещён. Вы должны быть продавцом или администратором."
+
+msgid "Please respect your ticket timing"
+msgstr "Соблюдайте, пожалуйста, время по вашим талонам"
+
+msgid ""
+"Respecting the timing ensures the platform performs well. This platform is "
+"for all of us—please respect the start and end of your tickets."
+msgstr ""
+"Соблюдение времени обеспечивает хорошую работу платформы. Платформа создана "
+"для всех нас — пожалуйста, соблюдайте начало и конец ваших талонов."
+
+msgid "Change duration"
+msgstr "Изменить длительность"
+
+msgid "You can extend (max +60 min) or shorten your slot."
+msgstr "Вы можете продлить (макс. +60 мин) или сократить ваш слот."
+
+msgid ""
+"You can extend your slot (max +%(max_min)s min). The following tickets on "
+"the same machine will be shifted."
+msgstr ""
+"Вы можете продлить слот (макс. +%(max_min)s мин). Следующие талоны на этой "
+"же машине будут сдвинуты."
+
+msgid "Extend by"
+msgstr "Продлить на"
+
+msgid "Extend"
+msgstr "Продлить"
+
+msgid "Shorten by"
+msgstr "Сократить на"
+
+msgid "Shorten"
+msgstr "Сократить"
+
+msgid "This ticket can no longer be modified."
+msgstr "Этот талон больше нельзя изменить."
+
+msgid "You can add at most %(max)s minutes."
+msgstr "Вы можете добавить не более %(max)s минут."
+
+msgid "Cannot extend: the next slot starts too soon."
+msgstr "Нельзя продлить: следующий слот начинается слишком скоро."
+
+msgid "Your slot has been extended."
+msgstr "Ваш слот продлён."
+
+msgid "Please specify how many minutes to subtract."
+msgstr "Укажите, на сколько минут сократить."
+
+msgid "The slot must last at least %(min)s minutes."
+msgstr "Слот должен длиться не менее %(min)s минут."
+
+msgid "The new end time would be in the past."
+msgstr "Новое время окончания было бы в прошлом."
+
+msgid "Your slot has been shortened."
+msgstr "Ваш слот сокращён."
+
+msgid "Invalid action."
+msgstr "Неверное действие."
+
+msgid "Your current tickets"
+msgstr "Ваши текущие талоны"
+
+msgid "Click a ticket to display it at the top with live countdown."
+msgstr ""
+"Нажмите на талон, чтобы отобразить его вверху с обратным отсчётом в реальном"
+" времени."
+
+msgid "Total duration cannot exceed program duration + %(max)s minutes."
+msgstr ""
+"Общая длительность не может превышать длительность программы + %(max)s "
+"минут."
+
+msgid "This reservation can no longer be cancelled."
+msgstr "Эту резервацию больше нельзя отменить."
+
+msgid "Reservation cancelled."
+msgstr "Резервация отменена."
+
+msgid "DORTOIR MADI"
+msgstr "Общежитие МАДИ"
+
+msgid "Bâtiment 1"
+msgstr "Корпус 1"
+
+msgid "Bâtiment 2"
+msgstr "Корпус 2"
+
+msgid "Dormitory"
+msgstr "Общежитие"

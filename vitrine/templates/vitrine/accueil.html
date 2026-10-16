@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nectivate — Votre partenaire digital</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: #080b14;
+            color: #f4f5ff;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            padding: 25px 8%;
+            border-bottom: 1px solid #242938;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 28px; font-weight: bold; }
+        .logo span, .accent { color: #5ce8d8; }
+        nav a {
+            color: #d5d9e8;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+        main { padding: 100px 8%; }
+        .tag { color: #5ce8d8; letter-spacing: 3px; }
+        h1 { font-size: clamp(42px, 6vw, 76px); max-width: 850px; }
+        p { color: #aab3c8; line-height: 1.8; font-size: 18px; }
+        .button {
+            display: inline-block;
+            background: #5ce8d8;
+            color: #07121a;
+            padding: 17px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        section { padding: 20px 8% 80px; }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+        .service {
+            padding: 30px;
+            border: 1px solid #292f40;
+            border-radius: 18px;
+            background: #101522;
+        }
+        footer {
+            border-top: 1px solid #292f40;
+            padding: 30px 8%;
+            color: #aab3c8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Necta<span>vite.</span></div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="tag">VOTRE PARTENAIRE DIGITAL</div>
+        <h1>Vos idées méritent <span class="accent">plus qu'un site web.</span></h1>
+        <p>Nous transformons vos idées en expériences digitales modernes,
+        élégantes et pensées pour faire grandir votre activité.</p>
+        <a class="button" href="#contact">Démarrer un projet ↗</a>
+    </main>
+
+    <section id="services">
+        <h1>Le digital au service de vos ambitions.</h1>
+        <p>Des solutions pensées pour répondre à vos vrais besoins.</p>
+        <div class="services">
+            <div class="service">
+                <h2>Sites web & landing pages</h2>
+                <p>Des sites modernes, rapides et conçus pour valoriser votre activité.</p>
+            </div>
+            <div class="service">
+                <h2>Plateformes & applications</h2>
+                <p>Des outils numériques adaptés à vos processus.</p>
+            </div>
+            <div class="service">
+                <h2>Design UI/UX & branding</h2>
+                <p>Une identité cohérente et des interfaces simples à utiliser.</p>
+            </div>
+            <div class="service">
+                <h2>Automatisation & optimisation</h2>
+                <p>Des processus plus fluides pour gagner du temps.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <h1>Pas seulement créer. <span class="accent">Créer ce qui compte.</span></h1>
+        <p>Chaque projet commence par une idée et une ambition.
+        Nous associons réflexion, design et développement.</p>
+    </section>
+
+    <section id="contact">
+        <h1>Et si nous donnions vie à votre idée ?</h1>
+        <p>Parlons de vos besoins et imaginons ensemble la suite.</p>
+        <a class="button" href="mailto:contact@nectivate.com">Nous contacter ↗</a>
+    </section>
+
+    <footer>
+        Nectivate. — © 2026 Tous droits réservés.
+    </footer>
+</body>
+</html>

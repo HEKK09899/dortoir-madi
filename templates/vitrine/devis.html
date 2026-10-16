@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demander un devis — Nectivate</title>
+
+    <style>
+        :root {
+            --background: #080b14;
+            --surface: #101522;
+            --border: #292f40;
+            --text: #f4f5ff;
+            --muted: #aab3c8;
+            --accent: #5ce8d8;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            padding: 24px 8%;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            color: var(--text);
+            font-size: 28px;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .logo span,
+        .accent {
+            color: var(--accent);
+        }
+
+        header a:last-child {
+            color: var(--muted);
+            text-decoration: none;
+        }
+
+        main {
+            width: min(760px, 90%);
+            margin: 70px auto;
+        }
+
+        .tag {
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            margin: 12px 0;
+            font-size: clamp(36px, 6vw, 58px);
+            line-height: 1.12;
+            letter-spacing: -1.5px;
+        }
+
+        .intro {
+            margin-bottom: 35px;
+            color: var(--muted);
+            font-size: 17px;
+        }
+
+        form {
+            padding: 32px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+        }
+
+        .form-row {
+            margin-bottom: 22px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text);
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            padding: 13px 14px;
+            background: #0b101c;
+            border: 1px solid #353d52;
+            border-radius: 8px;
+            color: var(--text);
+            font: inherit;
+        }
+
+        .form-control:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 1px;
+        }
+
+        textarea.form-control {
+            resize: vertical;
+        }
+
+        .error {
+            color: #ff9292;
+            font-size: 13px;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 15px 20px;
+            border: 0;
+            border-radius: 9px;
+            background: var(--accent);
+            color: #081018;
+            font-size: 16px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            filter: brightness(1.08);
+        }
+
+        .note {
+            color: var(--muted);
+            font-size: 12px;
+            text-align: center;
+        }
+
+        footer {
+            padding: 25px 8%;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 20px 5%;
+            }
+
+            .logo {
+                font-size: 23px;
+            }
+
+            main {
+                margin: 45px auto;
+            }
+
+            form {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/vitrine/nectivate/">
+            Necta<span>vite.</span>
+        </a>
+        <a href="/vitrine/nectivate/">← Retour au site</a>
+    </header>
+
+    <main>
+        <div class="tag">PARLONS DE VOTRE PROJET</div>
+
+        <h1>
+            Donnons vie à votre
+            <span class="accent">idée.</span>
+        </h1>
+
+        <p class="intro">
+            Présentez-nous votre besoin. Nous étudierons votre demande
+            afin de comprendre votre projet et les solutions possibles.
+        </p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            {% if form.non_field_errors %}
+                <div class="error">
+                    {{ form.non_field_errors }}
+                </div>
+            {% endif %}
+
+            {% for field in form %}
+                <div class="form-row">
+                    <label for="{{ field.id_for_label }}">
+                        {{ field.label }}
+                        {% if field.field.required %}<span class="accent">*</span>{% endif %}
+                    </label>
+
+                    {{ field }}
+
+                    {% for error in field.errors %}
+                        <p class="error">{{ error }}</p>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+
+            <button class="submit-button" type="submit">
+                Envoyer ma demande ↗
+            </button>
+
+            <p class="note">
+                Les champs marqués d’un * sont obligatoires.
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        Nectivate. — © 2026 Tous droits réservés.
+    </footer>
+</body>
+</html>

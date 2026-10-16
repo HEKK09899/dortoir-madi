@@ -1,0 +1,1102 @@
+# French (default)
+# Copyright (C) 2025
+# This file is distributed under the same license as the project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 00:00+0000\n"
+"PO-Revision-Date: 2025-01-01 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: fr\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "DORTOIR MADI"
+msgstr "DORTOIR MADI"
+
+msgid "Laverie"
+msgstr "Laverie"
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgid "Log out"
+msgstr "Déconnexion"
+
+msgid "Log in"
+msgstr "Se connecter"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Welcome to Dortoir 3"
+msgstr "Bienvenue à DORTOIR MADI"
+
+msgid "Services and information for your dormitory."
+msgstr "Services et informations de votre dortoir."
+
+msgid "Book a washing machine online."
+msgstr "Réserver une machine à laver en ligne."
+
+msgid "Report a problem"
+msgstr "Signaler un problème"
+
+msgid "Describe an issue for the team to handle."
+msgstr "Décrire un problème pour que l'équipe le prenne en charge."
+
+msgid "Dortoir 3 — Dormitory services"
+msgstr "DORTOIR MADI — Services du dortoir"
+
+msgid "About"
+msgstr "À propos"
+
+msgid "Laundry room"
+msgstr "Salle à laver"
+
+msgid "Book your machine online."
+msgstr "Réservez votre machine en ligne."
+
+msgid "My tickets"
+msgstr "Mes tickets"
+
+msgid "Manage machines"
+msgstr "Gérer les machines"
+
+msgid "It's your turn"
+msgstr "C'est votre tour"
+
+msgid "Ticket"
+msgstr "Ticket"
+
+msgid "Show ticket"
+msgstr "Afficher le ticket"
+
+msgid "Access your personal space"
+msgstr "Accédez à votre espace personnel"
+
+msgid "Phone or email"
+msgstr "Téléphone ou e-mail"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Don't have an account?"
+msgstr "Pas de compte ?"
+
+msgid "Sign up"
+msgstr "S'inscrire"
+
+msgid "or"
+msgstr "ou"
+
+msgid "Activate an account"
+msgstr "Activer un compte"
+
+msgid "Forgot password?"
+msgstr "Mot de passe oublié ?"
+
+msgid "Create an account"
+msgstr "Créer un compte"
+
+msgid "Fill in the form below to register."
+msgstr "Remplissez le formulaire ci-dessous pour vous inscrire."
+
+msgid "Create account"
+msgstr "Créer le compte"
+
+msgid "Already have an account?"
+msgstr "Vous avez déjà un compte ?"
+
+msgid "Enter your password"
+msgstr "Entrez votre mot de passe"
+
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
+
+msgid "Confirm your password"
+msgstr "Confirmez le mot de passe"
+
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+msgid "First name"
+msgstr "Prénom"
+
+msgid "Last name"
+msgstr "Nom"
+
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+msgid "Photo"
+msgstr "Photo"
+
+msgid "This email is already in use."
+msgstr "Cet e-mail est déjà utilisé."
+
+msgid "Photo must not exceed 2 MB."
+msgstr "La photo ne doit pas dépasser 2 Mo."
+
+msgid "Good to know"
+msgstr "À savoir"
+
+msgid ""
+"You will be placed directly after the last person on this machine. Your slot"
+" will start 5 minutes after theirs (time to remove laundry)."
+msgstr ""
+"Vous serez placé(e) directement après la dernière personne sur cette "
+"machine. Votre créneau débutera 5 minutes après la fin du sien (temps de "
+"retrait du linge)."
+
+msgid "Your start time will be at earliest:"
+msgstr "Votre heure de début sera au plus tôt :"
+
+msgid "at"
+msgstr "à"
+
+msgid ""
+"Be present at your slot start time to respect the machine and other users."
+msgstr ""
+"Soyez présent(e) à l'heure de début de votre créneau pour respecter la "
+"machine et les autres utilisateurs."
+
+msgid "Announcements"
+msgstr "Annonces"
+
+msgid "Machines"
+msgstr "Machines"
+
+msgid "Until"
+msgstr "Jusqu'à"
+
+msgid "Available"
+msgstr "Disponible"
+
+msgid "In progress"
+msgstr "En cours"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Queue"
+msgstr "File d'attente"
+
+msgid "No ticket — machine available."
+msgstr "Aucun ticket — machine disponible."
+
+msgid "View tickets"
+msgstr "Voir les tickets"
+
+msgid "Book"
+msgstr "Réserver"
+
+msgid "No machine configured at the moment."
+msgstr "Aucune machine configurée pour le moment."
+
+msgid "Back to laundry room"
+msgstr "Retour à la salle à laver"
+
+msgid "Tickets in progress"
+msgstr "Tickets en cours"
+
+msgid "Reservations waiting and in progress on this machine."
+msgstr "Réservations en attente et en cours sur cette machine."
+
+msgid "End of last ticket:"
+msgstr "Fin du dernier ticket :"
+
+msgid "min"
+msgstr "min"
+
+msgid "No ticket in progress on this machine."
+msgstr "Aucun ticket en cours sur cette machine."
+
+msgid "Book this machine"
+msgstr "Réserver cette machine"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Dortoir 3 — Laverie"
+msgstr "DORTOIR MADI — Laverie"
+
+msgid "Machine"
+msgstr "Machine"
+
+msgid "Programme"
+msgstr "Programme"
+
+msgid "Time remaining"
+msgstr "Temps restant"
+
+msgid "Time slot"
+msgstr "Créneau"
+
+msgid "Holder"
+msgstr "Titulaire"
+
+msgid "Show this ticket at the machine to avoid conflicts."
+msgstr "Présentez ce ticket à la machine pour éviter les conflits."
+
+msgid "Activate the machine at the exact time shown above."
+msgstr "Activez la machine à l'heure exacte indiquée ci-dessus."
+
+msgid "Activate the machine at the exact time shown on your ticket."
+msgstr "Activez la machine à l'heure exacte indiquée sur votre ticket."
+
+msgid "Your washing machine reservations."
+msgstr "Vos réservations de machine à laver."
+
+msgid "New reservation"
+msgstr "Nouvelle réservation"
+
+msgid "Cancel this reservation?"
+msgstr "Annuler cette réservation ?"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Back to home"
+msgstr "Retour à l'accueil"
+
+msgid "View my reports"
+msgstr "Voir mes signalements"
+
+msgid "Report a problem"
+msgstr "Signaler un problème"
+
+msgid "Describe the problem. The team will take note of it."
+msgstr "Décrivez le problème. L'équipe en prendra connaissance."
+
+msgid "Problem description"
+msgstr "Description du problème"
+
+msgid "Submit report"
+msgstr "Envoyer le signalement"
+
+msgid "Describe the problem you encountered…"
+msgstr "Décrivez le problème rencontré…"
+
+msgid "Your report has been recorded. You can track its status below."
+msgstr ""
+"Votre signalement a bien été enregistré. Vous pouvez suivre son état ci-"
+"dessous."
+
+msgid "You have no reservations."
+msgstr "Vous n'avez aucune réservation."
+
+msgid "Book a slot"
+msgstr "Prendre un ticket"
+
+msgid ""
+"You cannot take more than %(max)s tickets on the same day on the same "
+"machine."
+msgstr ""
+"Vous ne pouvez pas prendre plus de %(max)s tickets le même jour sur la même "
+"machine."
+
+msgid "This function does not belong to the selected machine."
+msgstr "Cette fonction n'appartient pas à la machine choisie."
+
+msgid "Chat with ticket owners"
+msgstr "Discussion avec les titulaires des tickets"
+
+msgid "Exchange with people who have a ticket on this machine."
+msgstr "Échangez avec les personnes qui ont un ticket sur cette machine."
+
+msgid "No message yet. Be the first to write!"
+msgstr "Aucun message pour l'instant. Soyez le premier à écrire !"
+
+msgid "Your message..."
+msgstr "Votre message..."
+
+msgid "Send"
+msgstr "Envoyer"
+
+msgid "Only users with a ticket on this machine can post messages."
+msgstr ""
+"Seuls les utilisateurs ayant un ticket sur cette machine peuvent envoyer des"
+" messages."
+
+msgid "You need a ticket on this machine to post in the chat."
+msgstr ""
+"Vous devez avoir un ticket sur cette machine pour écrire dans le chat."
+
+msgid "You must have a ticket on this machine to post in the chat."
+msgstr ""
+"Vous devez avoir un ticket sur cette machine pour envoyer un message dans le"
+" chat."
+
+msgid "Message must be between 1 and 1000 characters."
+msgstr "Le message doit contenir entre 1 et 1000 caractères."
+
+msgid "Message sent."
+msgstr "Message envoyé."
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Send a message"
+msgstr "Envoyer un message"
+
+msgid ""
+"To exchange with a ticket owner, click « Message » next to their name to "
+"open the chat."
+msgstr ""
+"Pour échanger avec un titulaire de ticket, cliquez sur « Message » à côté de"
+" son nom pour ouvrir le chat."
+
+msgid "Turn the dial"
+msgstr "Tournez le cadran"
+
+msgid "Confirm reservation"
+msgstr "Confirmer la réservation"
+
+msgid "No program"
+msgstr "Aucun programme"
+
+msgid "Reserved"
+msgstr "Réservé"
+
+msgid "Completed"
+msgstr "Terminé"
+
+msgid "Cancelled"
+msgstr "Annulé"
+
+msgid "Error while copying."
+msgstr "Erreur lors de la copie."
+
+msgid ""
+"Add machines and their programs. Drag a program onto another machine to copy"
+" it."
+msgstr ""
+"Ajoutez les machines et leurs programmes. Glissez un programme sur une autre"
+" machine pour le copier."
+
+msgid "Add machine"
+msgstr "Ajouter une machine"
+
+msgid "Add program"
+msgstr "Ajouter une fonction"
+
+msgid "Banner messages"
+msgstr "Messages du bandeau"
+
+msgid "Reported issues"
+msgstr "Problèmes signalés"
+
+msgid "Active"
+msgstr "Active"
+
+msgid "Inactive"
+msgstr "Inactive"
+
+msgid "Order"
+msgstr "Ordre"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Programs"
+msgstr "Programmes"
+
+msgid "Hide = no longer offer for reservation. Show = reactivate."
+msgstr "Masquer = ne plus proposer à la réservation. Afficher = réactiver."
+
+msgid "Drag to another machine to copy"
+msgstr "Glisser vers une autre machine pour copier"
+
+msgid "Hide"
+msgstr "Masquer"
+
+msgid "Show"
+msgstr "Afficher"
+
+msgid "Hide this program"
+msgstr "Masquer ce programme"
+
+msgid "Show this program"
+msgstr "Afficher ce programme"
+
+msgid "Drop a program here to copy it."
+msgstr "Déposez un programme ici pour le copier."
+
+msgid "Add some"
+msgstr "En ajouter"
+
+msgid "No machines"
+msgstr "Aucune machine"
+
+msgid "Add a machine to start managing the laundry room."
+msgstr "Ajoutez une machine pour commencer à gérer la laverie."
+
+msgid ""
+"These messages scroll at the top of the laundry page, above the machines."
+msgstr ""
+"Ces messages défilent en haut de la page laverie, au-dessus des machines."
+
+msgid "Post a message"
+msgstr "Publier un message"
+
+msgid "Back to machine management"
+msgstr "Retour à la gestion des machines"
+
+msgid "Displayed"
+msgstr "Affiché"
+
+msgid "Hidden"
+msgstr "Masqué"
+
+msgid "Delete this message?"
+msgstr "Supprimer ce message ?"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid ""
+"No messages. Post one to have it scroll at the top of the laundry page."
+msgstr ""
+"Aucun message. Publiez-en un pour qu'il défile en haut de la page laverie."
+
+msgid "Back to machines"
+msgstr "Retour aux machines"
+
+msgid "Edit program"
+msgstr "Modifier la fonction"
+
+msgid "New program"
+msgstr "Nouvelle fonction (programme)"
+
+msgid "Edit the program."
+msgstr "Modifiez le programme."
+
+msgid "Choose the machine, program name and duration."
+msgstr "Choisissez la machine, le nom du programme et la durée."
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Back to messages"
+msgstr "Retour aux messages"
+
+msgid "Edit message"
+msgstr "Modifier le message"
+
+msgid "Edit machine"
+msgstr "Modifier la machine"
+
+msgid "New machine"
+msgstr "Nouvelle machine"
+
+msgid "Edit the name, order or status."
+msgstr "Modifiez le nom, l'ordre ou le statut."
+
+msgid "Set the name and display order."
+msgstr "Définissez le nom et l'ordre d'affichage."
+
+msgid "My profile"
+msgstr "Mon profil"
+
+msgid "Manage your personal information and password"
+msgstr "Gérez vos informations personnelles et votre mot de passe"
+
+msgid "Personal information"
+msgstr "Informations personnelles"
+
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+msgid "Profile photo"
+msgstr "Photo de profil"
+
+msgid "Accepted formats: JPG, PNG, GIF (max 2 MB)"
+msgstr "Formats acceptés : JPG, PNG, GIF (max 2 Mo)"
+
+msgid "Account information"
+msgstr "Informations de compte"
+
+msgid "Not provided"
+msgstr "Non renseigné"
+
+msgid "Email and phone number cannot be changed"
+msgstr "L'email et le numéro de téléphone ne peuvent pas être modifiés"
+
+msgid "Gender"
+msgstr "Genre"
+
+msgid "Change profile photo"
+msgstr "Changer la photo de profil"
+
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+msgid ""
+"For your security, you must enter your current password to set a new one."
+msgstr ""
+"Pour votre sécurité, vous devez entrer votre ancien mot de passe pour en "
+"créer un nouveau."
+
+msgid "Unsupported image format. Use JPG, PNG or GIF."
+msgstr "Format d'image non supporté. Utilisez JPG, PNG ou GIF."
+
+msgid "Current password"
+msgstr "Ancien mot de passe"
+
+msgid "Enter your current password"
+msgstr "Entrez votre ancien mot de passe"
+
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+msgid "Enter your new password"
+msgstr "Entrez votre nouveau mot de passe"
+
+msgid "Password must be at least 8 characters long."
+msgstr "Le mot de passe doit contenir au moins 8 caractères."
+
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+msgid "Confirm your new password"
+msgstr "Confirmez votre nouveau mot de passe"
+
+msgid "The current password is incorrect."
+msgstr "L'ancien mot de passe est incorrect."
+
+msgid "The two passwords do not match."
+msgstr "Les deux mots de passe ne correspondent pas."
+
+msgid "Your profile has been updated successfully."
+msgstr "Votre profil a été mis à jour avec succès."
+
+msgid "Please correct the errors in the form."
+msgstr "Veuillez corriger les erreurs dans le formulaire."
+
+msgid "Your password has been changed successfully."
+msgstr "Votre mot de passe a été changé avec succès."
+
+msgid "Account locked"
+msgstr "Compte bloqué"
+
+msgid "Too many login attempts have been made."
+msgstr "Trop de tentatives de connexion ont été effectuées."
+
+msgid "Your account or IP address is temporarily locked."
+msgstr "Votre compte ou votre adresse IP est temporairement bloqué."
+
+msgid "Please try again later."
+msgstr "Veuillez réessayer plus tard."
+
+msgid "Back to login page"
+msgstr "Retour à la page de connexion"
+
+msgid "User list"
+msgstr "Liste des utilisateurs"
+
+msgid "Promote users to couriers"
+msgstr "Promouvoir des utilisateurs en livreurs"
+
+msgid ""
+"Users register as clients. You can promote them to couriers. Once promoted, "
+"they can be assigned to packed orders."
+msgstr ""
+"Les utilisateurs s'inscrivent comme clients. Vous pouvez les promouvoir en "
+"livreurs. Une fois promus, ils pourront être assignés aux commandes "
+"emballées."
+
+msgid "Registered on"
+msgstr "Inscrit le"
+
+msgid "Promote to courier"
+msgstr "Promouvoir en livreur"
+
+msgid "No client users available"
+msgstr "Aucun utilisateur client disponible"
+
+msgid "Email verification"
+msgstr "Vérification email"
+
+msgid "Check your mailbox..."
+msgstr "Vérifiez votre boîte mail..."
+
+msgid "We have sent you an activation link."
+msgstr "Nous vous avons envoyé un lien d'activation."
+
+msgid "Please click it to complete your registration."
+msgstr "Merci de cliquer dessus pour finaliser votre inscription."
+
+msgid "Resend activation link"
+msgstr "Renvoyer le lien d'activation"
+
+msgid "Your email address"
+msgstr "Votre adresse e-mail"
+
+msgid "Resend link"
+msgstr "Renvoyer le lien"
+
+msgid "Account activated"
+msgstr "Compte activé"
+
+msgid ""
+"Your account has been successfully activated! You will be redirected to the "
+"login page in 5 seconds."
+msgstr ""
+"Votre compte a été activé avec succès ! Vous allez être redirigé vers la "
+"page de connexion dans 5 secondes."
+
+msgid "Something went wrong"
+msgstr "Un problème s'est passé"
+
+msgid "Password reset"
+msgstr "Réinitialisation du mot de passe"
+
+msgid ""
+"Enter your email address and we will send you a link to reset your password."
+msgstr ""
+"Entrez votre adresse e-mail et nous vous enverrons un lien pour "
+"réinitialiser votre mot de passe."
+
+msgid "example@email.com"
+msgstr "exemple@email.com"
+
+msgid "Send reset link"
+msgstr "Envoyer le lien de réinitialisation"
+
+msgid "Back to login"
+msgstr "Retour à la connexion"
+
+msgid "Check your inbox and spam folder. The link expires after 24 hours."
+msgstr ""
+"Vérifiez votre boîte de réception et vos spams. Le lien expire après 24 "
+"heures."
+
+msgid "Email sent!"
+msgstr "E-mail envoyé !"
+
+msgid ""
+"If the email address you provided exists in our database, you will shortly "
+"receive an email with a reset link."
+msgstr ""
+"Si l'adresse e-mail que vous avez fournie existe dans notre base de données,"
+" vous recevrez sous peu un e-mail contenant un lien de réinitialisation."
+
+msgid "Click the link in the email to create a new password."
+msgstr "Cliquez sur le lien dans l'e-mail pour créer un nouveau mot de passe."
+
+msgid "Tip:"
+msgstr "Conseil :"
+
+msgid ""
+"Check your spam or junk folder if you do not receive the email within a few "
+"minutes."
+msgstr ""
+"Vérifiez votre dossier de spams ou courriers indésirables si vous ne recevez"
+" pas l'e-mail dans quelques minutes."
+
+msgid "Create a new secure password for your account."
+msgstr "Créez un nouveau mot de passe sécurisé pour votre compte."
+
+msgid "At least 8 characters"
+msgstr "Minimum 8 caractères"
+
+msgid "Repeat password"
+msgstr "Répétez le mot de passe"
+
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+msgid ""
+"Your password must be at least 8 characters and different from your "
+"username."
+msgstr ""
+"Votre mot de passe doit contenir au moins 8 caractères et être différent de "
+"votre nom d'utilisateur."
+
+msgid "Password reset complete!"
+msgstr "Mot de passe réinitialisé !"
+
+msgid ""
+"Your password has been changed successfully. You can now log in with your "
+"new password."
+msgstr ""
+"Votre mot de passe a été modifié avec succès. Vous pouvez maintenant vous "
+"connecter avec votre nouveau mot de passe."
+
+msgid "Security:"
+msgstr "Sécurité :"
+
+msgid "Keep your login details secret and never share them with anyone."
+msgstr ""
+"Gardez vos informations de connexion secrètes et ne les partagez jamais avec"
+" personne."
+
+msgid "Hello,"
+msgstr "Bonjour,"
+
+msgid ""
+"You are receiving this email because you requested a password reset for your"
+" account on Dortoir 3."
+msgstr ""
+"Vous recevez cet e-mail car vous avez demandé la réinitialisation du mot de "
+"passe de votre compte sur DORTOIR MADI."
+
+msgid "Please click the link below to reset your password:"
+msgstr ""
+"Veuillez cliquer sur le lien suivant pour réinitialiser votre mot de passe :"
+
+msgid "If you did not request this reset, you can ignore this email."
+msgstr ""
+"Si vous n'avez pas demandé cette réinitialisation, vous pouvez ignorer cet "
+"email."
+
+msgid ""
+"Your password will not be changed until you click the link above and create "
+"a new password."
+msgstr ""
+"Votre mot de passe ne sera pas modifié tant que vous n'aurez pas cliqué sur "
+"le lien ci-dessus et créé un nouveau mot de passe."
+
+msgid "Thank you,"
+msgstr "Merci,"
+
+msgid "The Dortoir 3 team"
+msgstr "L’équipe DORTOIR MADI"
+
+# Chat
+msgid "My conversations"
+msgstr "Mes conversations"
+
+msgid "Manage all your conversations"
+msgstr "Gérez toutes vos conversations"
+
+msgid "Online"
+msgstr "En ligne"
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "No conversations"
+msgstr "Aucune conversation"
+
+msgid ""
+"You don't have any conversations yet. Conversations will appear here when "
+"you start chatting with other users."
+msgstr ""
+"Vous n'avez pas encore de conversation. Les conversations apparaîtront ici "
+"lorsque vous commencerez à échanger avec d'autres utilisateurs."
+
+msgid "Conversation"
+msgstr "Conversation"
+
+msgid "With"
+msgstr "Avec"
+
+msgid "Back to conversations"
+msgstr "Retour aux conversations"
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Voice call"
+msgstr "Appel audio"
+
+msgid "Video call"
+msgstr "Appel vidéo"
+
+msgid "Downloading..."
+msgstr "Téléchargement..."
+
+msgid "Your browser does not support the audio element."
+msgstr "Votre navigateur ne supporte pas l'élément audio."
+
+msgid "No messages yet. Start the conversation!"
+msgstr "Aucun message pour le moment. Commencez la conversation !"
+
+msgid "Remove"
+msgstr "Retirer"
+
+msgid "Attach an image or file (PDF, Word, etc.)"
+msgstr "Joindre une image ou un fichier (PDF, Word, etc.)"
+
+msgid "Attach file"
+msgstr "Joindre un fichier"
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Record a voice message"
+msgstr "Enregistrer un message vocal"
+
+msgid "Voice message"
+msgstr "Message vocal"
+
+msgid "Voice"
+msgstr "Vocal"
+
+msgid "Message... (or attach a file / record voice)"
+msgstr "Message... (ou joignez un fichier / enregistrez un vocal)"
+
+msgid "Recording in progress..."
+msgstr "Enregistrement en cours..."
+
+msgid "Stop"
+msgstr "Arrêter"
+
+msgid "Call in progress..."
+msgstr "Appel en cours..."
+
+msgid "Connecting..."
+msgstr "Connexion..."
+
+msgid "Incoming call"
+msgstr "Appel entrant"
+
+msgid "Mute"
+msgstr "Muet"
+
+msgid "Video"
+msgstr "Vidéo"
+
+msgid "Hang up"
+msgstr "Raccrocher"
+
+# Dashboard client
+msgid "My space"
+msgstr "Mon espace"
+
+msgid "Welcome"
+msgstr "Bienvenue"
+
+msgid "My laundry tickets"
+msgstr "Mes tickets laverie"
+
+msgid "View my tickets"
+msgstr "Voir mes tickets"
+
+msgid "My reports"
+msgstr "Mes signalements"
+
+msgid "View my reports"
+msgstr "Voir mes signalements"
+
+msgid "Pending resolution"
+msgstr "En attente de résolution"
+
+msgid "Track status"
+msgstr "Suivre l'état"
+
+msgid "Laundry reservation(s) in progress"
+msgstr "Réservation(s) laverie en cours"
+
+msgid "ticket"
+msgstr "ticket"
+
+msgid "Laundry"
+msgstr "Laverie"
+
+msgid "Book a washing machine, view slots and my tickets."
+msgstr "Réserver une machine à laver, consulter les créneaux et mes tickets."
+
+msgid "Go to laundry"
+msgstr "Accéder à la laverie"
+
+msgid "Describe a problem (equipment, building, etc.) for staff follow-up."
+msgstr ""
+"Décrire un problème (équipement, bâtiment, etc.) pour suivi par les agents."
+
+msgid "Create a report"
+msgstr "Créer un signalement"
+
+msgid "pending"
+msgstr "en attente"
+
+# Dashboard admin
+msgid "Administrator Dashboard"
+msgstr "Dashboard Administrateur"
+
+msgid "Dormitory 3 — Overview"
+msgstr "DORTOIR MADI — Vue d’ensemble"
+
+msgid "Django Administration"
+msgstr "Administration Django"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "View in admin"
+msgstr "Voir dans l'admin"
+
+msgid "Machines (laundry)"
+msgstr "Machines (laverie)"
+
+msgid "Active reservations"
+msgstr "Réservations actives"
+
+msgid "View laundry"
+msgstr "Voir la laverie"
+
+msgid "Reports"
+msgstr "Signalements"
+
+msgid "Process reports"
+msgstr "Traiter les signalements"
+
+msgid "New"
+msgstr "Nouveaux"
+
+msgid "Resolved"
+msgstr "Résolus"
+
+msgid "View"
+msgstr "Voir"
+
+msgid "Recent reports"
+msgstr "Signalements récents"
+
+msgid "View all"
+msgstr "Voir tout"
+
+msgid "Anonymous"
+msgstr "Anonyme"
+
+msgid "No reports"
+msgstr "Aucun signalement"
+
+msgid "Recent users"
+msgstr "Utilisateurs récents"
+
+msgid "No users"
+msgstr "Aucun utilisateur"
+
+msgid "Quick access"
+msgstr "Accès rapides"
+
+msgid "Laundry, reports and administration."
+msgstr "Laverie, signalements et administration."
+
+msgid "Machine management"
+msgstr "Gestion machines"
+
+msgid "Reported issues"
+msgstr "Problèmes signalés"
+
+msgid "Django Admin"
+msgstr "Admin Django"
+
+msgid "Access denied. You must be an administrator."
+msgstr "Accès refusé. Vous devez être administrateur."
+
+msgid "This feature is not used in this project."
+msgstr "Cette fonction n'est pas utilisée dans ce projet."
+
+msgid "Access denied. You must be a seller or administrator."
+msgstr "Accès refusé. Vous devez être vendeur ou administrateur."
+
+msgid "Please respect your ticket timing"
+msgstr "Veuillez respecter les horaires de vos tickets"
+
+msgid ""
+"Respecting the timing ensures the platform performs well. This platform is "
+"for all of us—please respect the start and end of your tickets."
+msgstr ""
+"Le respect des horaires assure le bon fonctionnement de la plateforme. Cette"
+" plateforme est pour nous tous : veuillez respecter le début et la fin de "
+"vos tickets."
+
+msgid "Change duration"
+msgstr "Modifier la durée"
+
+msgid "You can extend (max +60 min) or shorten your slot."
+msgstr "Vous pouvez prolonger (max +60 min) ou raccourcir votre créneau."
+
+msgid ""
+"You can extend your slot (max +%(max_min)s min). The following tickets on "
+"the same machine will be shifted."
+msgstr ""
+"Vous pouvez prolonger votre créneau (max +%(max_min)s min). Les tickets "
+"suivants sur la même machine seront décalés."
+
+msgid "Extend by"
+msgstr "Prolonger de"
+
+msgid "Extend"
+msgstr "Prolonger"
+
+msgid "Shorten by"
+msgstr "Raccourcir de"
+
+msgid "Shorten"
+msgstr "Raccourcir"
+
+msgid "This ticket can no longer be modified."
+msgstr "Ce ticket ne peut plus être modifié."
+
+msgid "You can add at most %(max)s minutes."
+msgstr "Vous pouvez ajouter au maximum %(max)s minutes."
+
+msgid "Cannot extend: the next slot starts too soon."
+msgstr "Impossible de prolonger : le créneau suivant commence trop tôt."
+
+msgid "Your slot has been extended."
+msgstr "Votre créneau a été prolongé."
+
+msgid "Please specify how many minutes to subtract."
+msgstr "Indiquez de combien de minutes raccourcir."
+
+msgid "The slot must last at least %(min)s minutes."
+msgstr "Le créneau doit durer au moins %(min)s minutes."
+
+msgid "The new end time would be in the past."
+msgstr "La nouvelle heure de fin serait dans le passé."
+
+msgid "Your slot has been shortened."
+msgstr "Votre créneau a été raccourci."
+
+msgid "Invalid action."
+msgstr "Action invalide."
+
+msgid "Your current tickets"
+msgstr "Vos tickets en cours"
+
+msgid "Click a ticket to display it at the top with live countdown."
+msgstr ""
+"Cliquez sur un ticket pour l'afficher en haut avec le compte à rebours en "
+"direct."
+
+msgid "Total duration cannot exceed program duration + %(max)s minutes."
+msgstr ""
+"La durée totale ne peut pas dépasser la durée du programme + %(max)s "
+"minutes."
+
+msgid "This reservation can no longer be cancelled."
+msgstr "Cette réservation ne peut plus être annulée."
+
+msgid "Reservation cancelled."
+msgstr "Réservation annulée."
+
+msgid "DORTOIR MADI"
+msgstr "DORTOIR MADI"
+
+msgid "Bâtiment 1"
+msgstr "Bâtiment 1"
+
+msgid "Bâtiment 2"
+msgstr "Bâtiment 2"
+
+msgid "Dormitory"
+msgstr "Bâtiment"

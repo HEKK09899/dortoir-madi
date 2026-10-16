@@ -1,0 +1,339 @@
+{% extends 'home.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block contenu %}
+<!-- Bulles de savon pleine page (arrière-plan) -->
+<!-- Elegant soap bubbles background -->
+<div class="bubbles-bg fixed inset-0 pointer-events-none overflow-hidden z-0" aria-hidden="true">
+    <span class="bubble bubble-lg"></span>
+    <span class="bubble bubble-md"></span>
+    <span class="bubble bubble-sm"></span>
+    <span class="bubble bubble-lg"></span>
+    <span class="bubble bubble-md"></span>
+    <span class="bubble bubble-sm"></span>
+</div>
+
+<style>
+
+.bubbles-bg{
+    filter: blur(1px);
+}
+
+/* Base bubble */
+
+.bubble{
+    position:absolute;
+    border-radius:50%;
+    background: radial-gradient(
+        circle at 30% 30%,
+        rgba(255,255,255,0.8),
+        rgba(180,210,255,0.35) 40%,
+        rgba(120,170,255,0.15) 70%,
+        transparent
+    );
+    box-shadow:
+        inset 0 4px 8px rgba(255,255,255,0.5),
+        inset 0 -2px 6px rgba(255,255,255,0.2),
+        0 10px 30px rgba(0,0,0,0.05);
+
+    animation: floatBubble 25s linear infinite;
+    opacity:0.5;
+}
+
+/* Sizes */
+
+.bubble-sm{
+    width:18px;
+    height:18px;
+}
+
+.bubble-md{
+    width:35px;
+    height:35px;
+}
+
+.bubble-lg{
+    width:70px;
+    height:70px;
+}
+
+/* Positions */
+
+.bubble:nth-child(1){ left:10%; bottom:-80px; animation-duration:28s;}
+.bubble:nth-child(2){ left:25%; bottom:-120px; animation-duration:30s;}
+.bubble:nth-child(3){ left:40%; bottom:-60px; animation-duration:26s;}
+.bubble:nth-child(4){ left:60%; bottom:-100px; animation-duration:32s;}
+.bubble:nth-child(5){ left:75%; bottom:-140px; animation-duration:27s;}
+.bubble:nth-child(6){ left:90%; bottom:-90px; animation-duration:29s;}
+
+@keyframes floatBubble{
+    0%{
+        transform:translateY(0) scale(0.9);
+        opacity:0;
+    }
+
+    10%{
+        opacity:0.6;
+    }
+
+    50%{
+        transform:translateY(-50vh) scale(1);
+    }
+
+    100%{
+        transform:translateY(-110vh) scale(1.1);
+        opacity:0.75;
+    }
+}
+
+</style>
+
+<div class="max-w-7xl mx-auto py-4 sm:py-6 px-3 sm:px-4 relative z-10">
+    <div class="bg-gradient-to-r from-indigo-500 to-indigo-600 rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 mb-6 text-white">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+            <div>
+                <p class="text-indigo-100 text-sm font-medium mb-0.5">{% trans "DORTOIR MADI" %}</p>
+                <h1 class="text-xl sm:text-2xl md:text-3xl font-bold mb-1">{% trans "Laundry room" %}</h1>
+                <p class="text-indigo-100 text-sm">{% trans "Book your machine online." %}</p>
+            </div>
+            <div class="w-full sm:w-auto flex flex-col sm:flex-row flex-wrap gap-2 mt-3 sm:mt-0">
+                <a href="{% url 'laverie:mes_tickets' %}" class="bg-white/20 hover:bg-white/30 active:bg-white/40 text-white px-4 py-3.5 sm:py-2.5 rounded-xl font-medium transition border border-white/30 flex items-center justify-center gap-2 min-h-[48px] touch-manipulation w-full sm:w-auto">
+                    <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+                    <span>{% trans "My tickets" %}</span>
+                </a>
+                {% if user.user_type == 'ADMIN' %}
+                <a href="{% url 'laverie:agent_machines' %}" class="bg-white/20 hover:bg-white/30 active:bg-white/40 text-white px-4 py-3.5 sm:py-2.5 rounded-xl font-medium transition border border-white/30 flex items-center justify-center gap-2 min-h-[48px] touch-manipulation w-full sm:w-auto">
+                    <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    <span>{% trans "Manage machines" %}</span>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-6 rounded-2xl border border-indigo-200 bg-indigo-50 p-4 sm:p-5 shadow-sm">
+        <div class="flex items-start gap-3">
+            <span class="flex-shrink-0 w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+                </svg>
+            </span>
+            <div class="min-w-0">
+                <p class="text-sm sm:text-base font-semibold text-indigo-900">
+                    {% trans "Please respect your ticket timing" %}
+                </p>
+                <p class="text-sm text-indigo-800 mt-1">
+                    {% blocktrans %}Respecting the timing ensures the platform performs well. This platform is for all of us—please respect the start and end of your tickets.{% endblocktrans %}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% if ticket_affiche %}
+    <div class="mb-6 rounded-2xl shadow-xl border-2 border-emerald-300 bg-gradient-to-br from-emerald-50 to-green-50 p-5 sm:p-6 overflow-hidden">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div class="flex items-center gap-4">
+                <span class="flex-shrink-0 w-14 h-14 rounded-2xl bg-emerald-500 flex items-center justify-center text-white shadow-lg">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </span>
+                <div>
+                    <p class="text-sm font-bold text-emerald-700 uppercase tracking-wider">{% trans "It's your turn" %}</p>
+                    <p class="text-xl sm:text-2xl font-black text-gray-900 mt-0.5">{% trans "Ticket" %} #{{ ticket_affiche.numero|default:ticket_affiche.pk }}</p>
+                    <p class="text-gray-700 mt-1">{{ ticket_affiche.machine.nom }} · {{ ticket_affiche.fonction.nom|default:"—" }} — {{ ticket_affiche.duree_affichage }}</p>
+                </div>
+            </div>
+            <a href="{% url 'laverie:afficher_ticket' ticket_affiche.pk %}" class="flex-shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-md transition min-h-[48px] touch-manipulation">
+                <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                <span>{{ laverie_i18n.show_ticket }}</span>
+            </a>
+        </div>
+        <div id="accueil-countdown" class="mt-4 pt-4 border-t border-emerald-200" data-end="{{ ticket_affiche.fin|date:'c' }}" data-duration-minutes="{{ ticket_affiche.duree_minutes }}">
+            <p class="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-2">{% trans "Time remaining" %}</p>
+            <p id="accueil-countdown-display" class="text-2xl sm:text-3xl font-black text-emerald-700 tabular-nums">--</p>
+            <div class="mt-2 h-2 bg-emerald-200 rounded-full overflow-hidden">
+                <div id="accueil-countdown-bar" class="h-full bg-emerald-500 rounded-full transition-all duration-1000 ease-linear" style="width: 100%"></div>
+            </div>
+        </div>
+        <script>
+        (function() {
+            var block = document.getElementById('accueil-countdown');
+            var display = document.getElementById('accueil-countdown-display');
+            var bar = document.getElementById('accueil-countdown-bar');
+            if (!block || !display) return;
+            var endStr = block.getAttribute('data-end');
+            var durationMin = parseInt(block.getAttribute('data-duration-minutes'), 10) || 60;
+            if (!endStr) return;
+            var totalMs = durationMin * 60 * 1000;
+            function update() {
+                var now = new Date();
+                var end = new Date(endStr.replace(' ', 'T'));
+                var remainingMs = Math.max(0, end - now);
+                var remaining = Math.floor(remainingMs / 1000);
+                var pct = totalMs > 0 ? Math.min(100, (remainingMs / totalMs) * 100) : 0;
+                if (bar) bar.style.width = pct + '%';
+                if (remaining <= 0) {
+                    display.textContent = '0 min 00 s';
+                    display.classList.add('text-gray-500');
+                    return;
+                }
+                var min = Math.floor(remaining / 60);
+                var sec = remaining % 60;
+                display.textContent = min + ' min ' + (sec < 10 ? '0' : '') + sec + ' s';
+            }
+            update();
+            setInterval(update, 1000);
+        })();
+        </script>
+    </div>
+    {% endif %}
+
+    {% if mes_tickets_en_cours %}
+    <div class="mb-6 rounded-2xl border border-emerald-200 bg-emerald-50/60 p-4 sm:p-5">
+        <p class="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-2">
+            {% trans "Your current tickets" %}
+        </p>
+        <p class="text-xs text-emerald-700 mb-2">{% trans "Click a ticket to display it at the top with live countdown." %}</p>
+        <ul class="space-y-1.5 text-sm text-emerald-900">
+            {% for t in mes_tickets_en_cours %}
+            <li>
+                <a href="{% url 'laverie:accueil' %}?focus={{ t.pk }}" class="flex items-center justify-between gap-2 py-2.5 px-3 rounded-lg transition {% if t.pk == ticket_affiche.pk %}bg-emerald-200 font-semibold ring-2 ring-emerald-400{% else %}bg-emerald-50 hover:bg-emerald-100{% endif %}">
+                    <span>
+                        <span class="text-xs font-bold text-emerald-700 mr-1">#{{ t.numero|default:t.pk }}</span>
+                        {{ t.machine.nom }} · {{ t.fonction.nom|default:"—" }}
+                    </span>
+                    <span class="text-xs text-emerald-800 tabular-nums">
+                        {{ t.debut|time:"H:i" }} → {{ t.fin|time:"H:i" }}
+                    </span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    {% if annonces %}
+    <div class="mb-6 relative overflow-hidden rounded-2xl shadow-lg border border-white/20 bg-gradient-to-r from-amber-400 via-amber-300 to-orange-300" aria-label="Messages">
+        <div class="absolute inset-0 opacity-30" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23fff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        <div class="relative flex items-center py-1">
+            <div class="flex-shrink-0 flex items-center gap-2 pl-4 pr-3 py-2.5 z-10">
+                <span class="w-9 h-9 rounded-xl bg-white/90 shadow-md flex items-center justify-center text-amber-600">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317M18 13V9a3 3 0 00-5.356-1.857M11 5.882L13 2v3.882"/></svg>
+                </span>
+                <span class="text-amber-900/90 font-bold text-xs uppercase tracking-wider hidden sm:inline">{% trans "Announcements" %}</span>
+            </div>
+            <div class="flex-1 overflow-hidden">
+                <div class="laverie-messages-track flex items-center py-2.5">
+                    {% for msg in annonces %}
+                    <span class="laverie-message flex-shrink-0 mx-4 px-4 py-1.5 rounded-full bg-white/90 text-amber-900 font-semibold text-sm sm:text-base shadow-sm backdrop-blur">{% get_current_language as CURRENT_LANG %}{% if CURRENT_LANG == 'ru' and msg.texte_ru %}{{ msg.texte_ru }}{% elif CURRENT_LANG == 'en' and msg.texte_en %}{{ msg.texte_en }}{% else %}{{ msg.texte }}{% endif %}</span>
+                    <span class="flex-shrink-0 w-2 h-2 rounded-full bg-amber-600/50" aria-hidden="true"></span>
+                    {% endfor %}
+                    {% for msg in annonces %}
+                    <span class="laverie-message flex-shrink-0 mx-4 px-4 py-1.5 rounded-full bg-white/90 text-amber-900 font-semibold text-sm sm:text-base shadow-sm backdrop-blur">{% get_current_language as CURRENT_LANG %}{% if CURRENT_LANG == 'ru' and msg.texte_ru %}{{ msg.texte_ru }}{% elif CURRENT_LANG == 'en' and msg.texte_en %}{{ msg.texte_en }}{% else %}{{ msg.texte }}{% endif %}</span>
+                    <span class="flex-shrink-0 w-2 h-2 rounded-full bg-amber-600/50" aria-hidden="true"></span>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="flex-shrink-0 w-12 sm:w-20 h-full absolute right-0 top-0 z-10 bg-gradient-to-l from-amber-300/95 to-transparent pointer-events-none" aria-hidden="true"></div>
+        </div>
+    </div>
+    <style>
+        .laverie-messages-track {
+            animation: laverie-scroll 50s linear infinite;
+            width: max-content;
+        }
+        .laverie-messages-track:hover { animation-play-state: paused; }
+        @keyframes laverie-scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+    </style>
+    {% endif %}
+
+    <h2 class="text-lg font-bold text-gray-800 mb-5 flex items-center gap-2">
+        <span class="w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center">
+            <svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+        </span>
+        {% trans "Machines" %}
+    </h2>
+    {% if machines %}
+    <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+        {% for m in machines %}
+        <article class="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5">
+            <div class="relative bg-gradient-to-br from-indigo-500 via-indigo-600 to-indigo-700 px-5 py-5 overflow-hidden">
+                <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 20px 20px;"></div>
+                <div class="relative flex items-start justify-between gap-3">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-2xl bg-white/25 backdrop-blur flex items-center justify-center shadow-inner ring-2 ring-white/30">
+                            <svg class="w-9 h-9 text-white drop-shadow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white tracking-tight drop-shadow-sm">{{ m.nom }}</h3>
+                            <span class="inline-flex items-center gap-1.5 mt-1.5 text-xs font-medium {% if m.fin_dernier_ticket %}text-amber-100 bg-white/20{% else %}text-emerald-100 bg-emerald-500/30{% endif %} px-2.5 py-1 rounded-full">
+                                {% if m.fin_dernier_ticket %}
+                                <span class="w-1.5 h-1.5 rounded-full bg-amber-300 animate-pulse"></span>
+                                {% trans "Until" %} {{ m.fin_dernier_ticket|time }}
+                                {% else %}
+                                <span class="w-1.5 h-1.5 rounded-full bg-emerald-300"></span>
+                                {% trans "Available" %}
+                                {% endif %}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-5">
+                {% if m.file_attente %}
+                <div class="mb-4">
+                    {% for r in m.file_attente %}
+                    {% if r.debut <= now and r.fin >= now %}
+                    <div class="mb-4 p-4 rounded-xl bg-gradient-to-br from-emerald-50 to-green-50 border border-emerald-200 shadow-sm">
+                        <div class="flex items-center gap-2 mb-2">
+                            <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-emerald-500 text-white">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                            </span>
+                            <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">{% trans "In progress" %}</span>
+                        </div>
+                        <p class="text-base font-bold text-gray-900">#{{ r.numero|default:r.pk }} — {{ r.utilisateur.get_full_name|default:user_display_default }}</p>
+                        <p class="text-sm text-emerald-800 mt-0.5">{{ r.fonction.nom|default:"—" }} — {{ r.duree_affichage }} · {{ r.debut|time }} → {{ r.fin|time }}</p>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">{% trans "Queue" %} ({{ m.file_attente|length }})</p>
+                    <ul class="space-y-1.5 max-h-40 overflow-y-auto pr-1">
+                        {% for r in m.file_attente %}
+                        <li class="flex justify-between gap-2 items-center py-2 px-3 rounded-xl text-sm transition {% if r.debut <= now and r.fin >= now %}bg-emerald-100 text-emerald-900{% else %}bg-gray-50 hover:bg-gray-100 text-gray-700{% endif %}">
+                            <span><strong class="text-indigo-600 font-semibold">#{{ r.numero|default:r.pk }}</strong> {{ r.utilisateur.get_full_name|default:user_display_default|truncatechars:16 }}</span>
+                            <span class="text-gray-500 text-xs tabular-nums">{{ r.debut|time }} → {{ r.fin|time }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% else %}
+                <div class="mb-4 flex items-center gap-3 py-3 px-4 rounded-xl bg-emerald-50 border border-emerald-100">
+                    <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-emerald-100 text-emerald-600">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                    </span>
+                    <p class="text-sm font-medium text-emerald-800">{% trans "No ticket — machine available." %}</p>
+                </div>
+                {% endif %}
+               
+                <div class="mt-5 flex flex-col sm:flex-row gap-3">
+                    <a href="{% url 'laverie:tickets_machine' m.pk %}" class="flex-1 text-center bg-gray-100 hover:bg-gray-200 active:bg-gray-300 text-gray-700 py-3.5 sm:py-3 rounded-xl text-sm font-semibold transition flex items-center justify-center gap-2 min-h-[48px] touch-manipulation">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+                        <span>{% trans "View tickets" %}</span>
+                    </a>
+                    <a href="{% url 'laverie:reserver' %}?machine={{ m.id }}" class="flex-1 text-center bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 active:from-indigo-700 active:to-indigo-800 text-white py-3.5 sm:py-3 rounded-xl text-sm font-semibold transition shadow-md hover:shadow-lg flex items-center justify-center gap-2 min-h-[48px] touch-manipulation">
+                        <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        <span>{% trans "Book" %}</span>
+                    </a>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="text-gray-500 bg-gray-50 rounded-xl p-6 text-center">{% trans "No machine configured at the moment." %}</p>
+    {% endif %}
+</div>
+{% endblock %}
